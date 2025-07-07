@@ -12,12 +12,12 @@ package com.mycompany.mavenproject4;
 import java.time.LocalDateTime;
 
 public class VisitLog {
-    private int id;
-    private String studentName;
-    private String studentId;
-    private String studyProgram;
-    private String purpose;
-    private LocalDateTime visitTime;
+    public int id;
+    public String studentName;
+    public String studentId;
+    public String studyProgram;
+    public String purpose;
+    public LocalDateTime visitTime;
 
     public VisitLog(int id, String studentName, String studentId, String studyProgram, String purpose, LocalDateTime visitTime) {
         this.id = id;
