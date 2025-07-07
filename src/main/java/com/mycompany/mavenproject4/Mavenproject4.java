@@ -124,7 +124,7 @@ public class Mavenproject4 extends JFrame {
 
         try {
             String query = String.format(
-                "mutation { addVisit(studentId: \"%s\", studentName: \"%s\", studentProgram: \"%s\", purpose: \"%s\", visitTime: \"%s\") { id studentId } }",
+                "mutation { addVisit(studentId: \"%s\", studentName: \"%s\", studentProgram: \"%s\", purpose: \"%s\", visitTime: %s) { id studentId } }",
                 nimField.getText(),
                 nameField.getText(),
                 studyProgramBox.getSelectedItem(),
